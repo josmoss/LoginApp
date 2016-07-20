@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		298920E45C3674C4CE69A517 /* Pods_IronChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8BFBC1EA26A50CC66A053EA /* Pods_IronChat.framework */; };
+		D86978131D3E9C47005E9E71 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D86978121D3E9C47005E9E71 /* GoogleService-Info.plist */; };
+		D86978151D3EBFB0005E9E71 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86978141D3EBFB0005E9E71 /* RegisterViewController.swift */; };
+		D86978171D3ED119005E9E71 /* LoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86978161D3ED119005E9E71 /* LoggedInViewController.swift */; };
+		D882F2311D3E95B8008ABA72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D882F2301D3E95B8008ABA72 /* AppDelegate.swift */; };
+		D882F2331D3E95B8008ABA72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D882F2321D3E95B8008ABA72 /* ViewController.swift */; };
+		D882F2361D3E95B8008ABA72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D882F2341D3E95B8008ABA72 /* Main.storyboard */; };
+		D882F2381D3E95B8008ABA72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D882F2371D3E95B8008ABA72 /* Assets.xcassets */; };
+		D882F23B1D3E95B8008ABA72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D882F2391D3E95B8008ABA72 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07DDA2AF78C018EAFA187333 /* Pods-IronChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IronChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-IronChat/Pods-IronChat.release.xcconfig"; sourceTree = "<group>"; };
+		9338EDC61A35EB9490CAE76D /* Pods-IronChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IronChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IronChat/Pods-IronChat.debug.xcconfig"; sourceTree = "<group>"; };
+		A8BFBC1EA26A50CC66A053EA /* Pods_IronChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IronChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D86978121D3E9C47005E9E71 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D86978141D3EBFB0005E9E71 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		D86978161D3ED119005E9E71 /* LoggedInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggedInViewController.swift; sourceTree = "<group>"; };
+		D882F22D1D3E95B8008ABA72 /* IronChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IronChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D882F2301D3E95B8008ABA72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D882F2321D3E95B8008ABA72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D882F2351D3E95B8008ABA72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D882F2371D3E95B8008ABA72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D882F23A1D3E95B8008ABA72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D882F23C1D3E95B8008ABA72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D882F22A1D3E95B8008ABA72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298920E45C3674C4CE69A517 /* Pods_IronChat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73845DA30A99BECCF712DDFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9338EDC61A35EB9490CAE76D /* Pods-IronChat.debug.xcconfig */,
+				07DDA2AF78C018EAFA187333 /* Pods-IronChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B15350039D16DF9A9ACECAE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8BFBC1EA26A50CC66A053EA /* Pods_IronChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D882F2241D3E95B8008ABA72 = {
+			isa = PBXGroup;
+			children = (
+				D882F22F1D3E95B8008ABA72 /* IronChat */,
+				D882F22E1D3E95B8008ABA72 /* Products */,
+				73845DA30A99BECCF712DDFF /* Pods */,
+				B15350039D16DF9A9ACECAE9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D882F22E1D3E95B8008ABA72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D882F22D1D3E95B8008ABA72 /* IronChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D882F22F1D3E95B8008ABA72 /* IronChat */ = {
+			isa = PBXGroup;
+			children = (
+				D882F2301D3E95B8008ABA72 /* AppDelegate.swift */,
+				D86978121D3E9C47005E9E71 /* GoogleService-Info.plist */,
+				D882F2321D3E95B8008ABA72 /* ViewController.swift */,
+				D86978141D3EBFB0005E9E71 /* RegisterViewController.swift */,
+				D86978161D3ED119005E9E71 /* LoggedInViewController.swift */,
+				D882F2341D3E95B8008ABA72 /* Main.storyboard */,
+				D882F2371D3E95B8008ABA72 /* Assets.xcassets */,
+				D882F2391D3E95B8008ABA72 /* LaunchScreen.storyboard */,
+				D882F23C1D3E95B8008ABA72 /* Info.plist */,
+			);
+			path = IronChat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D882F22C1D3E95B8008ABA72 /* IronChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D882F23F1D3E95B8008ABA72 /* Build configuration list for PBXNativeTarget "IronChat" */;
+			buildPhases = (
+				CF80B194C16D611F395A1F96 /* [CP] Check Pods Manifest.lock */,
+				D882F2291D3E95B8008ABA72 /* Sources */,
+				D882F22A1D3E95B8008ABA72 /* Frameworks */,
+				D882F22B1D3E95B8008ABA72 /* Resources */,
+				320DAB861F4222765DEC355B /* [CP] Embed Pods Frameworks */,
+				E38309A6DD509B81B4503748 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IronChat;
+			productName = IronChat;
+			productReference = D882F22D1D3E95B8008ABA72 /* IronChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D882F2251D3E95B8008ABA72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Iron Yard_Joe Moss";
+				TargetAttributes = {
+					D882F22C1D3E95B8008ABA72 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D882F2281D3E95B8008ABA72 /* Build configuration list for PBXProject "IronChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D882F2241D3E95B8008ABA72;
+			productRefGroup = D882F22E1D3E95B8008ABA72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D882F22C1D3E95B8008ABA72 /* IronChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D882F22B1D3E95B8008ABA72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D882F23B1D3E95B8008ABA72 /* LaunchScreen.storyboard in Resources */,
+				D86978131D3E9C47005E9E71 /* GoogleService-Info.plist in Resources */,
+				D882F2381D3E95B8008ABA72 /* Assets.xcassets in Resources */,
+				D882F2361D3E95B8008ABA72 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		320DAB861F4222765DEC355B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IronChat/Pods-IronChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF80B194C16D611F395A1F96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E38309A6DD509B81B4503748 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IronChat/Pods-IronChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D882F2291D3E95B8008ABA72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D86978151D3EBFB0005E9E71 /* RegisterViewController.swift in Sources */,
+				D882F2331D3E95B8008ABA72 /* ViewController.swift in Sources */,
+				D882F2311D3E95B8008ABA72 /* AppDelegate.swift in Sources */,
+				D86978171D3ED119005E9E71 /* LoggedInViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D882F2341D3E95B8008ABA72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D882F2351D3E95B8008ABA72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D882F2391D3E95B8008ABA72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D882F23A1D3E95B8008ABA72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D882F23D1D3E95B8008ABA72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D882F23E1D3E95B8008ABA72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D882F2401D3E95B8008ABA72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9338EDC61A35EB9490CAE76D /* Pods-IronChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IronChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiyjoe.IronChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D882F2411D3E95B8008ABA72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07DDA2AF78C018EAFA187333 /* Pods-IronChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IronChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiyjoe.IronChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D882F2281D3E95B8008ABA72 /* Build configuration list for PBXProject "IronChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D882F23D1D3E95B8008ABA72 /* Debug */,
+				D882F23E1D3E95B8008ABA72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D882F23F1D3E95B8008ABA72 /* Build configuration list for PBXNativeTarget "IronChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D882F2401D3E95B8008ABA72 /* Debug */,
+				D882F2411D3E95B8008ABA72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D882F2251D3E95B8008ABA72 /* Project object */;
+}

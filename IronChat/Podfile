@@ -1,0 +1,7 @@
+platform :ios, '9.0'
+
+target 'IronChat' do
+use_frameworks!
+  pod 'Firebase'
+  pod 'Firebase/Auth'
+end
